@@ -2,7 +2,7 @@ A Terraform module for creating AWS EC2 instance.
 
 Usage
 module "ec2_instance" {
-  source     = "git::https://github.com/easyawslearn/Terraform-Tutorial.git//aws-instance-first-script"
+  source     = "git::https://github.com/Rajeev-sreedharan/Terraform-Tutorial.git"
 
   region    = "us-west-2"
 }
